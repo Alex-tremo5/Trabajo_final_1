@@ -1,0 +1,120 @@
+html, body {
+  background-color:rgba(198, 212, 237, 0.23);
+}
+
+
+.header {
+  position: relative;
+  height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  padding-top: 190px;
+  padding-left: 150px;
+}
+
+.letter {
+  font-weight: 100;
+  font-style: oblique;
+}
+
+.title {
+  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-style: oblique;
+  font-weight: bold;
+  line-height: 0.9;
+}
+
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.adjust {
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.years {
+  color: #e73f43;
+  font-size: 20px;
+}
+
+.fix {
+  line-height: 0.4;
+}
+
+.idiomas {
+  text-align: left;
+}
+
+.barra {
+  height: 5px;
+  margin-bottom: 12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.sub {
+  text-align: center;
+  padding: 30px; 
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.column {
+  float: left;
+  flex: 30%;
+  padding: 8px;
+}
+
+.column img {
+  margin-top: 14px;
+  width: 100%;
+}
+
+.trabajos {
+  width: 220px;
+  height: 420px;
+}
+
+.this {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.boton {
+  text-align: center;
+  color: #ffffff;
+  background-color: #e73f43;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.boton:hover {
+  color: #ffffff;
+  background-color: #e57a7c;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.arreglo {
+  max-width: 100%;
+  overflow-x: hidden;
+}
